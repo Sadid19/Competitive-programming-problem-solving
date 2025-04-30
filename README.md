@@ -1,0 +1,1 @@
+This repository dedicated to competitive programming problem-solving! This collection includes solutions to various problems from online judges and coding platforms(Ex: CodeForce, CodeChef, atcoder, vjudge.net etc).
