@@ -17,6 +17,6 @@ int main()
         {
             a *= 2;
         }
+        cout << m % a << endl;
     }
-    cout << m % a << endl;
 }
