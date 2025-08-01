@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long int
+int main()
+{
+    int t;
+    cin >> t;
+
+    while(t--)
+    {
+        ll n;
+        cin >> n;
+
+        ll total = n * n + 2 * n + 2;
+
+        cout << total << endl;
+    }
+}
