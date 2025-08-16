@@ -11,7 +11,8 @@ int main()
 
     if(password.size() < 5)
     {
-        cout << "Too Weak \n";
+        cout << "Too weak \n";
+        return 0;
     }
     for(char c : password)
     {
@@ -29,7 +30,7 @@ int main()
         }
     }
 
-    if(digit && upper && lower)
+    if(upper && lower && digit)
     {
         cout << "Correct \n";
     }
@@ -37,4 +38,5 @@ int main()
     {
         cout << "Too weak \n";
     }
+    return 0;
 }
