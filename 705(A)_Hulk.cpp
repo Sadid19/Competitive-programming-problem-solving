@@ -8,7 +8,7 @@ int main()
     string s = "I hate";
     for(int i = 2; i <= n; i++)
     {
-        if(n % 2 == 0)
+        if(i % 2 == 0)
         {
             s += " that I love";
         }
