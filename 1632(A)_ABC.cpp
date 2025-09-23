@@ -12,25 +12,17 @@ int main()
         string s;
         cin >> s;
 
-        int count0 = 0, count1 = 0;
-        for(char c : s)
+        if(n == 1)
         {
-            if(c == '0')
-            {
-                count0++;
-            }
-            else
-            {
-                count1++;
-            }
+            cout << "YES\n";
         }
-        if(abs(count0 = count1) <= 1)
+        else if(n == 2 && s[0] != s[1])
         {
-            cout << "YES \n";
+            cout << "YES\n";
         }
         else
         {
-            cout << "NO \n";
+            cout << "NO\n";
         }
     }
 }
