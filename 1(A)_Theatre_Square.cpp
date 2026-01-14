@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-
 int main()
 {
     ll m, n, a;
@@ -12,3 +11,4 @@ int main()
 
     cout << flagstone_n * flagstone_m << endl;
 }
+
